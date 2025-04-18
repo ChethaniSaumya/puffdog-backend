@@ -1,0 +1,35 @@
+{
+  "name": "solanabackend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-bubblegum": "^4.4.0",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/mpl-toolbox": "^0.10.0",
+    "@metaplex-foundation/umi": "^1.1.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.1.1",
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "bs58": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0",
+    "next-server": "^9.0.5"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0"
+  },
+  "keywords": [],
+  "description": ""
+}
