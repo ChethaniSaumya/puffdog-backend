@@ -52,7 +52,7 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
 // CORS setup
 const corsOptions = {
-  origin: ['http://localhost:3000'], // your frontend domain
+  origin: [''], // your frontend domain
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true, // if your frontend needs cookies or auth
@@ -83,7 +83,7 @@ app.get('/api/events', (req, res) => {
 });
 
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.setHeader('Access-Control-Allow-Origin', 'https://pffdog-frontend.vercel.app');
   res.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   res.setHeader('Access-Control-Allow-Credentials', 'true');
